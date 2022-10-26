@@ -13,9 +13,7 @@ function compute() {
       You will receive an amount of <mark> ${result} </mark>
       <br/> in the year <mark> ${years_result} </mark><br/>`;
 
-      if (principal == 0) || (principal < 0) {
-          alert("Enter a positive number");
-      }
+      
   }
         
 
@@ -26,3 +24,9 @@ function updateRate(onchange)
 }
 
 
+function MyAlert() {
+    if (principal > 0) || (principal = 0) {
+        alert("Enter a positive number");
+    }
+    
+}
