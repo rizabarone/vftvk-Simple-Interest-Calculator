@@ -24,9 +24,4 @@ function updateRate(onchange)
 }
 
 
-function MyAlert() {
-    if (principal > 0) || (principal = 0) {
-        alert("Enter a positive number");
-    }
-    
-}
+
